@@ -13,7 +13,7 @@
 <body>
 <!-- Starting an immersive WebXR session requires user interaction.
     We start this one with a simple button. -->
-<button onclick="activateXR()">Start Hello WebXR V2</button>
+<button onclick="activateXR()">Start Hello WebXR V3</button>
 <script>
 async function activateXR() {
   // Add a canvas element and initialize a WebGL context that is compatible with WebXR.
@@ -74,7 +74,7 @@ loader.load("https://immersive-web.github.io/webxr-samples/media/gltf/reticle/re
 })
 
 let Star;
-loader.load("Models/Star/scene.gltf", function(gltf) {
+loader.load("Models/Business/Card.gltf", function(gltf) {
   Star = gltf.scene;
 });
 
